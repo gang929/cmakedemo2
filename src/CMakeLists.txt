@@ -4,4 +4,5 @@ target_include_directories(cmakedemo PUBLIC
 	)
 target_link_libraries(cmakedemo PUBLIC
 	"${GLIB2_LDFLAGS}"
+	-lpthread
 	)
